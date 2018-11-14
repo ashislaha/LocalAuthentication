@@ -15,6 +15,9 @@
 		AD222074219BD94F0013519F /* LocalAuthenticationProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD222073219BD94F0013519F /* LocalAuthenticationProjectTests.swift */; };
 		AD22207F219BDA420013519F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22207E219BDA420013519F /* HomeViewController.swift */; };
 		AD222081219BDACE0013519F /* BiometricAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD222080219BDACE0013519F /* BiometricAuthentication.swift */; };
+		AD222083219BE9D10013519F /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD222082219BE9D10013519F /* LoginService.swift */; };
+		AD222085219C513A0013519F /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD222084219C513A0013519F /* KeychainPasswordItem.swift */; };
+		AD222087219C51730013519F /* KeychainConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD222086219C51730013519F /* KeychainConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		AD222075219BD94F0013519F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD22207E219BDA420013519F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AD222080219BDACE0013519F /* BiometricAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthentication.swift; sourceTree = "<group>"; };
+		AD222082219BE9D10013519F /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		AD222084219C513A0013519F /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		AD222086219C51730013519F /* KeychainConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				AD22205E219BD94E0013519F /* AppDelegate.swift */,
-				AD222060219BD94E0013519F /* LogInViewController.swift */,
 				AD222080219BDACE0013519F /* BiometricAuthentication.swift */,
+				AD222082219BE9D10013519F /* LoginService.swift */,
+				AD222060219BD94E0013519F /* LogInViewController.swift */,
 				AD22207E219BDA420013519F /* HomeViewController.swift */,
-				AD222062219BD94E0013519F /* Main.storyboard */,
-				AD222065219BD94F0013519F /* Assets.xcassets */,
-				AD222067219BD94F0013519F /* LaunchScreen.storyboard */,
+				AD222089219C52010013519F /* Keychain */,
+				AD222088219C51950013519F /* UI */,
 				AD22206A219BD94F0013519F /* Info.plist */,
 			);
 			path = LocalAuthenticationProject;
@@ -100,6 +106,25 @@
 				AD222075219BD94F0013519F /* Info.plist */,
 			);
 			path = LocalAuthenticationProjectTests;
+			sourceTree = "<group>";
+		};
+		AD222088219C51950013519F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AD222062219BD94E0013519F /* Main.storyboard */,
+				AD222065219BD94F0013519F /* Assets.xcassets */,
+				AD222067219BD94F0013519F /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AD222089219C52010013519F /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				AD222084219C513A0013519F /* KeychainPasswordItem.swift */,
+				AD222086219C51730013519F /* KeychainConfiguration.swift */,
+			);
+			path = Keychain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +230,11 @@
 			files = (
 				AD222061219BD94E0013519F /* LogInViewController.swift in Sources */,
 				AD22205F219BD94E0013519F /* AppDelegate.swift in Sources */,
+				AD222083219BE9D10013519F /* LoginService.swift in Sources */,
 				AD222081219BDACE0013519F /* BiometricAuthentication.swift in Sources */,
 				AD22207F219BDA420013519F /* HomeViewController.swift in Sources */,
+				AD222087219C51730013519F /* KeychainConfiguration.swift in Sources */,
+				AD222085219C513A0013519F /* KeychainPasswordItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

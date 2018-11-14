@@ -28,6 +28,7 @@
                                 <rect key="frame" x="168.5" y="172" width="38" height="30"/>
                                 <state key="normal" title="log in"/>
                                 <connections>
+                                    <action selector="loginTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tqa-Zv-wxZ"/>
                                     <segue destination="F1s-X6-Olh" kind="show" identifier="home" id="6UO-ha-jGF"/>
                                 </connections>
                             </button>
@@ -52,6 +53,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Log in" id="MSs-li-nG0"/>
+                    <connections>
+                        <outlet property="password" destination="yv0-BC-Hyx" id="zGg-Kz-6gX"/>
+                        <outlet property="userName" destination="Xdk-ox-RyM" id="1xj-5U-6PQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
