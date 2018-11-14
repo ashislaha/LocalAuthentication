@@ -3,11 +3,20 @@
 Using Face ID and Touch ID, the iOS app can authorize your identity and send the log in information to the back-end without 
 any user interaction with the app. This is one of the most secure way to identify the user. Let's see how to implement it.
 
+In the world of computer security, authentication falls into 3 categories:
+
+(1). Something you know like user_id and password, PIN number etc. which are considered <b>less secure</b>. 
+
+(2). Something you have like it generates OTP (one time password), phone call to your personal mobile device etc.
+
+(3). Something you are, this is <b>most secure</b>, which refers to a physical attribute of your body which is unique to the user. Like biometric information of retina scan, voice recognition, facial recognition, finger-print etc. 
+
+
 ## The local authentication framework:
 
 Biometric authentication for ios app is implemented using local authentication framework: <b>LAContext</b>
 
-### Flow 1: User enter the user_name and password first time
+### Flow 1: User enters the user_name and password first time
 
 ### Flow 2: On success of log-in, the app will save the password to key-chain to use it later and user-name into user-defaults
 
