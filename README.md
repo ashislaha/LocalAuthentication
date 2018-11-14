@@ -16,6 +16,7 @@ Biometric authentication for ios app is implemented using local authentication f
 ### Flow 4: If the device supports Touch ID and Face ID, it will call logIn Service with stored user_name and password
 
 ![face_id](https://user-images.githubusercontent.com/10649284/48486603-02f69480-e842-11e8-8f39-cb773c40501e.gif)
+
 ![touch_id](https://user-images.githubusercontent.com/10649284/48487385-17d42780-e844-11e8-8b20-14a0b3936f7d.gif)
 
       
