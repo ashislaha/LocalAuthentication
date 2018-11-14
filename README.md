@@ -18,9 +18,9 @@ Biometric authentication for ios app is implemented using local authentication f
 
 ### Flow 1: User enters the user_name and password first time
 
-### Flow 2: On success of log-in, the app will save the password to key-chain to use it later and user-name into user-defaults
+### Flow 2: On success of log-in, the app will save the password to key-chain and user-name into user-defaultsto use it later
 
-### Flow 3: While next time onwards, the user comes to LogIn page, if the app retrieves user-name from user-defaults and password from key-chain and check whether the app can evaluate the authentication using biometric.
+### Flow 3: While next time onwards, the user comes to LogIn page, the app retrieves user-name from user-defaults and password from key-chain and check whether the app can evaluate the authentication using biometric.
 
 ### Flow 4: If the device supports Touch ID and Face ID, it will call logIn Service with stored user_name and password
 
