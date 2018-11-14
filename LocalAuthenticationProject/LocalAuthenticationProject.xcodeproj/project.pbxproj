@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		AD22205F219BD94E0013519F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22205E219BD94E0013519F /* AppDelegate.swift */; };
-		AD222061219BD94E0013519F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD222060219BD94E0013519F /* ViewController.swift */; };
+		AD222061219BD94E0013519F /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD222060219BD94E0013519F /* LogInViewController.swift */; };
 		AD222064219BD94E0013519F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD222062219BD94E0013519F /* Main.storyboard */; };
 		AD222066219BD94F0013519F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD222065219BD94F0013519F /* Assets.xcassets */; };
 		AD222069219BD94F0013519F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD222067219BD94F0013519F /* LaunchScreen.storyboard */; };
 		AD222074219BD94F0013519F /* LocalAuthenticationProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD222073219BD94F0013519F /* LocalAuthenticationProjectTests.swift */; };
+		AD22207F219BDA420013519F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22207E219BDA420013519F /* HomeViewController.swift */; };
+		AD222081219BDACE0013519F /* BiometricAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD222080219BDACE0013519F /* BiometricAuthentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,7 @@
 /* Begin PBXFileReference section */
 		AD22205B219BD94E0013519F /* LocalAuthenticationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalAuthenticationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD22205E219BD94E0013519F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD222060219BD94E0013519F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD222060219BD94E0013519F /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		AD222063219BD94E0013519F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD222065219BD94F0013519F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD222068219BD94F0013519F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		AD22206F219BD94F0013519F /* LocalAuthenticationProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalAuthenticationProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD222073219BD94F0013519F /* LocalAuthenticationProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationProjectTests.swift; sourceTree = "<group>"; };
 		AD222075219BD94F0013519F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD22207E219BDA420013519F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AD222080219BDACE0013519F /* BiometricAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthentication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				AD22205E219BD94E0013519F /* AppDelegate.swift */,
-				AD222060219BD94E0013519F /* ViewController.swift */,
+				AD222060219BD94E0013519F /* LogInViewController.swift */,
+				AD222080219BDACE0013519F /* BiometricAuthentication.swift */,
+				AD22207E219BDA420013519F /* HomeViewController.swift */,
 				AD222062219BD94E0013519F /* Main.storyboard */,
 				AD222065219BD94F0013519F /* Assets.xcassets */,
 				AD222067219BD94F0013519F /* LaunchScreen.storyboard */,
@@ -197,8 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD222061219BD94E0013519F /* ViewController.swift in Sources */,
+				AD222061219BD94E0013519F /* LogInViewController.swift in Sources */,
 				AD22205F219BD94E0013519F /* AppDelegate.swift in Sources */,
+				AD222081219BDACE0013519F /* BiometricAuthentication.swift in Sources */,
+				AD22207F219BDA420013519F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
