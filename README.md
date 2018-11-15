@@ -59,8 +59,8 @@ Biometric authentication for ios app is implemented using local authentication f
             if let error = error {
                 switch error.code {
                 case LAError.Code.biometryNotEnrolled.rawValue: print("biometry is not enrolled")
-                case LAError.Code.biometryLockout.rawValue: print("biometry is not enrolled")
-                case LAError.Code.biometryNotAvailable.rawValue: print("biometry is not enrolled")
+                case LAError.Code.biometryLockout.rawValue: print("the phone is not passcode protected")
+                case LAError.Code.biometryNotAvailable.rawValue: print("biometry is not availabled")
                 default: break
                 }
             }
