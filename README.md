@@ -11,6 +11,9 @@ In the world of computer security, authentication falls into 3 categories:
 
 (3). Something you are, this is <b>most secure</b>, which refers to a physical attribute of your body which is unique to the user. Like biometric information of retina scan, voice recognition, facial recognition, finger-print etc. 
 
+## Architecture of local authentication:
+
+<img width="1085" alt="local_auth_architecture" src="https://user-images.githubusercontent.com/10649284/49329276-05771f00-f5a2-11e8-89cc-1f0ff841c2cc.png">
 
 ## The local authentication framework:
 
